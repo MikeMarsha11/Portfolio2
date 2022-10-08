@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <title>Mike Marshall</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <section class="banner" id="sec">
+    <header>
+      <a href="#" class="logo">Logo</a>
+      <div id="toggle" onclick="toggle ()"></div>
+    </header>
+    <div class="content">
+      <h2>Hello World <br>I'm <span>Mike Marshall</span></h2>
+      <p>I am a Web Developer with a passion for creating art and helping others!</p>
+      <a href="#">Know More</a>
+    </div>
+    <ul class="sci">
+      <li><a href="https://www.facebook.com/profile.php?id=100037764725270"><img src="images/facebook.png" alt=""></a></li>
+      <li><a href="https://twitter.com/Mike_Marshal1"><img src="images/twitter.png" alt=""></a></li>
+      <li><a href="https://www.linkedin.com/in/michael-marshall-804874209/"><img src="images/linkedin.png" alt=""></a></li>
+    </ul>
+  </section>
+  <div id="navigation">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Services</a></li>
+    <li><a href="#">Portfolio</a></li>
+    <li><a href="#">Contact</a></li>
+
+  </div>
+  <script type="text/javascript">
+    function toggle() {
+      var sec = document.getElementById('sec');
+      var nav = document.getElementById('navigation');
+      sec.classList.toggle('active');
+      nav.classList.toggle('active');
+    }
+  </script>
+</body>
+
+</html>
